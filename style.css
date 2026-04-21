@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#hero {
+    background: #f4f4f4;
+    padding: 100px 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 25%;
+}
